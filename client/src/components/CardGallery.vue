@@ -1,13 +1,15 @@
 <template>
-  <div>
+  <section class="cardGallery">
 
-  </div>
+  </section>
 </template>
 
 <script>
-  export default {
-    
-  }
+export default {
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style scoped>

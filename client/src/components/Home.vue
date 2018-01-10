@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import SearchBar from './SearchBar.vue';
+import SearchBar from './SearchBar';
 
 export default {
   name: 'Home',
@@ -14,9 +14,7 @@ export default {
     SearchBar,
   },
   data() {
-    return {
-      hey: 'hey',
-    };
+    return {};
   },
 };
 </script>

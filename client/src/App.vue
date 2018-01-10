@@ -8,7 +8,7 @@
 
 <script>
 import Navbar from './components/Navbar';
-import AppFooter from './components/AppFooter.vue';
+import AppFooter from './components/AppFooter';
 
 export default {
   name: 'app',
