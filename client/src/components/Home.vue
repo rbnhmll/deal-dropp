@@ -1,12 +1,18 @@
 <template>
-  <div class="home">
+  <main class="home">
     <p>Some info about the site</p>
-  </div>
+    <SearchBar />
+  </main>
 </template>
 
 <script>
+import SearchBar from './SearchBar.vue';
+
 export default {
   name: 'Home',
+  components: {
+    SearchBar,
+  },
   data() {
     return {
       hey: 'hey',
