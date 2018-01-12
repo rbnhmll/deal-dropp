@@ -1,15 +1,9 @@
 <template>
   <main class="home">
     <SearchBar />
-    
-    <h2>Search Results</h2>
-    <CardGallery :items="searchResults" />
-
-    <h2>Popular Dropps</h2>
-    <CardGallery :items="popularDropps" />
-
-    <h2>Recent Dropps</h2>
-    <CardGallery :items="recentDropps" />
+    <CardGallery :items="searchResults" :sectionName="'Search Results'" />
+    <CardGallery :items="popularDropps" :sectionName="'Popular Dropps'" />
+    <CardGallery :items="recentDropps" :sectionName="'Recent Dropps'" />
   </main>
 </template>
 

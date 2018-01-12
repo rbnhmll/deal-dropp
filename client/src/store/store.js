@@ -28,7 +28,7 @@ const store = new Vuex.Store({
         imageSRC: 'http://lorempixel.com/400/400/',
       },
     ],
-    watchItems: [
+    watchedItems: [
       {
         name: 'Amazon Alexa',
         url:

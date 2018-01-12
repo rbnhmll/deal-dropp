@@ -1,5 +1,6 @@
 <template>
   <section class="cardGallery">
+    <h2>{{sectionName}}</h2>
     <ul>
       <ItemCard v-for="(item, i) in items" :key="i" :item="item" />
     </ul>
@@ -12,7 +13,7 @@ import ItemCard from './ItemCard';
 export default {
   name: 'CardGallery',
   components: { ItemCard },
-  props: ['items'],
+  props: ['items', 'sectionName'],
   data() {
     return {};
   },
