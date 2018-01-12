@@ -2,7 +2,6 @@
   <div>
     <form action="">
       <input class="search" type="search" name="" id="" placeholder="Search">
-      <input type="submit" value="Search">
     </form>
   </div>
 </template>
@@ -17,5 +16,9 @@ export default {
 
 <style lang="sass" scoped>
   .search
-
+    box-sizing: border-box
+    width: 100%
+    padding: 20px
+    border-radius: 43px
+    border: 2px solid grey
 </style>

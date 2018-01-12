@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style lang="sass">
-@import './assets/styles/_reset.scss';
+@import './assets/styles/_reset.scss'
 
 .wrapper
   max-width: 1080px
