@@ -24,6 +24,7 @@ export default {
   h2
     background: #324D8F
     color: #fff
+    text-align: center
   ul
     margin: 0
     padding: 0

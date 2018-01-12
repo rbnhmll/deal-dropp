@@ -19,6 +19,7 @@ export default {
   li
     list-style-type: none
     width: 31%
+    text-align: center
   .itemImage
     max-width: 100%
   .itemName,
