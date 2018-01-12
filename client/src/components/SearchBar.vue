@@ -18,7 +18,7 @@ export default {
   .search
     box-sizing: border-box
     width: 100%
-    padding: 20px
+    padding: 15px
     border-radius: 43px
     border: 2px solid grey
 </style>
