@@ -21,6 +21,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+  h2
+    background: #324D8F
+    color: #fff
   ul
     margin: 0
     padding: 0
