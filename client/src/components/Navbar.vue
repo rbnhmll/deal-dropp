@@ -38,7 +38,6 @@ export default {
     position: relative
     a
       text-decoration: none
-      color: #222
     &:before,
     &:after
       content: "💧"
@@ -50,6 +49,8 @@ export default {
       right: 10px
     &:after
       right: 0
+  a
+    color: #222
 
   ul
     display: flex
