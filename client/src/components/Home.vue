@@ -1,8 +1,15 @@
 <template>
   <main class="home">
-    <p>Some info about the site</p>
     <SearchBar />
+    
+    <h2>Search Results</h2>
     <CardGallery :items="searchResults" />
+
+    <h2>Popular Dropps</h2>
+    <CardGallery :items="popularDropps" />
+
+    <h2>Recent Dropps</h2>
+    <CardGallery :items="recentDropps" />
   </main>
 </template>
 
@@ -22,6 +29,12 @@ export default {
   computed: {
     searchResults() {
       return this.$store.state.searchResults;
+    },
+    popularDropps() {
+      return this.$store.state.popularDropps;
+    },
+    recentDropps() {
+      return this.$store.state.recentDropps;
     },
   },
 };
