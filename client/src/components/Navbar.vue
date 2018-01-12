@@ -1,11 +1,19 @@
 <template>
   <header>
-    <h1>Deal Dropp 💧</h1>
+    <a href="/#/">
+      <h1>Deal Dropp 💧</h1>
+    </a>
     <nav>
       <ul>
-        <li><a href="#">Watchlist</a></li>
-        <li><a href="#">🤦‍♂️</a></li>
-        <li><a href="#">Sign Out</a></li>
+        <li>
+          <a href="/#/watchlist">Watchlist</a>
+        </li>
+        <li>
+          <a href="/#/account">🤦‍♂️</a>
+        </li>
+        <li>
+          <a href="#">Sign Out</a>
+        </li>
       </ul>
     </nav>
   </header>
