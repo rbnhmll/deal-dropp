@@ -19,6 +19,10 @@ export default {
 };
 </script>
 
-<style scoped>
-
+<style lang="sass" scoped>
+  ul
+    margin: 0
+    padding: 0
+    display: flex
+    justify-content: space-between
 </style>
