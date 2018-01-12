@@ -1,6 +1,8 @@
 <template>
   <main class="watchlist">
-    <CardGallery :items="watchedItems" :sectionName="'Watchlist'" />
+    <div class="wrapper">
+      <CardGallery :items="watchedItems" :sectionName="'Watchlist'" />
+    </div>
   </main>
 </template>
 
@@ -24,6 +26,6 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="sass" scoped>
 
 </style>

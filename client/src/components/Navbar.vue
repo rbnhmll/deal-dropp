@@ -1,21 +1,25 @@
 <template>
   <header>
-    <a href="/#/">
-      <h1>Deal Dropp 💧</h1>
-    </a>
-    <nav>
-      <ul>
-        <li>
-          <a href="/#/watchlist">Watchlist</a>
-        </li>
-        <li>
-          <a href="/#/account">🤦‍♂️</a>
-        </li>
-        <li>
-          <a href="#">Sign Out</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="wrapper">
+      <h1>
+        <a href="/#/">
+          Deal Dropp
+        </a>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/#/watchlist">Watchlist</a>
+          </li>
+          <li>
+            <a href="/#/account">🤦‍♂️</a>
+          </li>
+          <li>
+            <a href="#">Sign Out</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
 </template>
 
@@ -26,10 +30,27 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-  header
+  header .wrapper
     display: flex
     justify-content: space-between
     align-items: center
+  h1
+    position: relative
+    a
+      text-decoration: none
+      color: #222
+    &:before,
+    &:after
+      content: "💧"
+      position: absolute
+      right: 0
+      z-index: -1
+      top: 5%
+    &:before
+      right: 10px
+    &:after
+      right: 0
+
   ul
     display: flex
     margin: 0

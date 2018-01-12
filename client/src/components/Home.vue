@@ -1,9 +1,11 @@
 <template>
   <main class="home">
-    <SearchBar />
-    <CardGallery :items="searchResults" :sectionName="'Search Results'" />
-    <CardGallery :items="popularDropps" :sectionName="'Popular Dropps'" />
-    <CardGallery :items="recentDropps" :sectionName="'Recent Dropps'" />
+    <div class="wrapper">
+      <SearchBar />
+      <CardGallery :items="searchResults" :sectionName="'Search Results'" />
+      <CardGallery :items="popularDropps" :sectionName="'Popular Dropps'" />
+      <CardGallery :items="recentDropps" :sectionName="'Recent Dropps'" />
+    </div>
   </main>
 </template>
 
@@ -35,6 +37,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="sass" scoped>
 
 </style>

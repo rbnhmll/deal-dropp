@@ -1,6 +1,8 @@
 <template>
   <footer>
-    <p>&copy; Robin Hamill 2018</p>
+    <div class="wrapper">
+      <p>&copy; Robin Hamill 2018</p>
+    </div>
   </footer>
 </template>
 
@@ -11,15 +13,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-  header
-    display: flex
-    justify-content: space-between
-    align-items: center
-  ul
-    display: flex
-    margin: 0
-    padding: 0
-    list-style: none
-    li
-      padding: 5px
+  footer
+    text-align: center
+    background: #324D8F
+    color: #fff
+    margin-top: 25px
 </style>
