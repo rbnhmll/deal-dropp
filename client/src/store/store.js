@@ -14,6 +14,13 @@ const store = new Vuex.Store({
         imageSRC: 'http://via.placeholder.com/400x400',
       },
       {
+        name: 'A teddy',
+        url:
+          'https://www.amazon.ca/Echo-2nd-Generation-Charcoal-Fabric/dp/B0749ZSPN7/ref=sr_1_1?ie=UTF8&qid=1515769286&sr=8-1&keywords=alexa',
+        price: '17.99',
+        imageSRC: 'http://via.placeholder.com/400x400',
+      },
+      {
         name: 'A movie',
         url:
           'https://www.amazon.ca/Echo-2nd-Generation-Charcoal-Fabric/dp/B0749ZSPN7/ref=sr_1_1?ie=UTF8&qid=1515769286&sr=8-1&keywords=alexa',
@@ -21,7 +28,7 @@ const store = new Vuex.Store({
         imageSRC: 'http://via.placeholder.com/400x400',
       },
       {
-        name: 'A horse',
+        name: 'A Pony',
         url:
           'https://www.amazon.ca/Echo-2nd-Generation-Charcoal-Fabric/dp/B0749ZSPN7/ref=sr_1_1?ie=UTF8&qid=1515769286&sr=8-1&keywords=alexa',
         price: '10900.99',
@@ -100,6 +107,7 @@ const store = new Vuex.Store({
   },
   getters: {},
   mutations: {},
+  actions: {},
 });
 
 export default store;

@@ -28,6 +28,7 @@ export default {
   ul
     margin: 0
     padding: 0
-    display: flex
-    justify-content: space-between
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    grid-column-gap: 1%
 </style>

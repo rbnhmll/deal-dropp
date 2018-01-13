@@ -28,12 +28,12 @@ export default {
 
 #app
   min-height: 100vh
-  display: flex
-  flex-direction: column
+  display: grid
+  grid-template-areas: "header" "main" "footer"
   font-family: 'Avenir', Helvetica, Arial, sans-serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
 
 .main
-  flex: 1
+  grid-area: main
 </style>

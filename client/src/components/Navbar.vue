@@ -30,6 +30,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+  header
+    grid-area: header
   header .wrapper
     display: flex
     justify-content: space-between
