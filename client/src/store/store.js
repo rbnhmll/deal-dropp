@@ -5,6 +5,10 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
   state: {
+    searchParams: {
+      query: '',
+      providers: [],
+    },
     searchResults: [
       {
         name: 'A book',
