@@ -4,10 +4,27 @@ import Vuex from 'vuex';
 Vue.use(Vuex);
 
 const store = new Vuex.Store({
+  strict: true,
   state: {
     searchParams: {
-      query: '',
-      providers: [],
+      searchQuery: '',
+      providers: [
+        {
+          name: 'Amazon',
+          id: 'amazon',
+          checked: false,
+        },
+        {
+          name: 'Indigo',
+          id: 'indigo',
+          checked: false,
+        },
+        {
+          name: 'Frank And Oak',
+          id: 'frankAndOak',
+          checked: false,
+        },
+      ],
     },
     searchResults: [
       {
@@ -110,7 +127,12 @@ const store = new Vuex.Store({
     ],
   },
   getters: {},
-  mutations: {},
+  mutations: {
+    setProviders: (state, payload) => {
+      const provider = state.searchParams.providers.filter(x => x.id === payload.id);
+      provider[0].checked = payload.checked;
+    },
+  },
   actions: {},
 });
 
